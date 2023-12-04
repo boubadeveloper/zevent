@@ -1,0 +1,35 @@
+/* GLOBAL  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@500&family=Quicksand:wght@500;600&display=swap');
+@import url('./association.css');
+*, ::before , ::after
+{
+    
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    
+    margin: 0;
+    padding: 0;
+    
+    font-family: Quicksand , Arial, Helvetica, sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+    background-color: var(--color-primary);
+    color: var(--color-tert);
+}
+:root
+{
+    --color-primary: rgba(32,32,32,1);
+    --color-second: rgba(112,208,56,1);
+    --color-tert: rgba(255,255,255,1);
+    --color-grey:  rgba(255,255,255,0.2);
+    --color-black:  rgba(0,0,0,1);
+    --color-dark: rgba(16,16,16,1);
+    --title:'Caveat', cursive;
+   
+}
+h1{
+    color: var(--color-second);
+    font-family: var(--title);
+}
